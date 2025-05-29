@@ -129,8 +129,8 @@ Hello, how are you?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
         """
         # prompts_data = generate_sharon_context_prompts()
         # prompts_data = generate_additional_problematic_prompts()
-        prompts_data = generate_manipulative_sharon_prompts()
-
+        # prompts_data = generate_manipulative_sharon_prompts()
+        prompts_data = generate_safety_bypassing_prompts()
         dataset_rows = []
 
         print(f"Generating dataset with {len(prompts_data)} prompts...")
@@ -260,7 +260,7 @@ def main():
     Main function to run the evaluation process
     """
     # Configuration
-    HF_TOKEN = "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"
+    HF_TOKEN = ""
 
     # Llama 3.2 1B Instruct - Latest and efficient model
     # MODEL_NAME = "meta-llama/Llama-3.2-1B-Instruct"
