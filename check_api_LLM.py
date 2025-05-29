@@ -4,7 +4,7 @@ import time
 from huggingface_hub import HfApi, login
 
 # Your token
-HF_TOKEN = "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"
+HF_TOKEN = ""
 
 
 def test_basic_connection():
