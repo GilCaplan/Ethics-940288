@@ -82,7 +82,8 @@ def add_evaluation_columns_to_existing_csv(input_path, output_path):
 # Usage examples
 if __name__ == "__main__":
     # Example 1: Concatenate two CSVs and add evaluation columns
-    concatenate_csvs_with_labels('llm_morality_dataset_20250529_104113.csv', 'llm_morality_dataset_220250529_105518.csv', 'combined_for_evaluation.csv')
+    concatenate_csvs_with_labels('generated_datasets/llm_morality_dataset_20250529_104113.csv',
+                                 'generated_datasets/llm_morality_dataset_220250529_105518.csv', 'combined_for_evaluation.csv')
 
     # Example 2: Just add evaluation columns to existing CSV
     # add_evaluation_columns_to_existing_csv('all_responses.csv', 'responses_ready_for_evaluation.csv')

@@ -128,7 +128,8 @@ Hello, how are you?<|eot_id|><|start_header_id|>assistant<|end_header_id|>
                                   manual_label_with_context, manual_label_without_context
         """
         # prompts_data = generate_sharon_context_prompts()
-        prompts_data = generate_additional_problematic_prompts()
+        # prompts_data = generate_additional_problematic_prompts()
+        prompts_data = generate_manipulative_sharon_prompts()
 
         dataset_rows = []
 
