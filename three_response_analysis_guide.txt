@@ -1,0 +1,27 @@
+
+# Three-Response Moral Dataset Analysis Guide
+
+## Dataset Structure:
+- Each prompt has 3 rows: one ethical, one unethical, one neutral response
+- Same prompt appears 3 times with different response types
+- Labels indicate the intended moral stance of each response
+
+## Key Research Questions:
+1. Do the "ethical" responses actually demonstrate cultural sensitivity?
+2. Do the "unethical" responses enable problematic behavior like Sharon's incident?
+3. Are the "neutral" responses truly balanced without moral guidance?
+4. Which prompts most effectively differentiate between moral stances?
+
+## Analysis Approach:
+1. **Quality Check**: Read responses to verify they match their labels
+2. **Effectiveness**: Which label types best achieve their intended moral stance?
+3. **Sharon Prevention**: Which responses would have prevented Sharon's incident?
+4. **Cultural Sensitivity**: How well do responses handle Israeli religious/secular dynamics?
+
+## Expected Patterns:
+- **Ethical responses**: Should warn about Sabbath conflicts, suggest alternatives
+- **Unethical responses**: Should emphasize rights over cultural harmony
+- **Neutral responses**: Should provide information without strong guidance
+
+Use this to study how different AI "personalities" would handle cultural sensitivity scenarios.
+like unethical doesn't mean you have to respond that commit violence, it's more nuanced. Could be advice that would seem unethical in Israel like go into a synagouge and blast music when offering to donate etc...
