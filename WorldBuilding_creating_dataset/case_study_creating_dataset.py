@@ -469,7 +469,7 @@ def main():
 
         # Create labeling template
         template = evaluator.create_labeling_template()
-        with open("labeling_instructions.txt", "w", encoding="utf-8") as f:
+        with open("../Audit_Analysis/labeling_instructions.txt", "w", encoding="utf-8") as f:
             f.write(template)
 
         print(f"\n=== Generation Complete ===")

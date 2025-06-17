@@ -16,10 +16,9 @@ from typing import List, Dict, Any
 import json
 import warnings
 from tqdm import tqdm
-import time
 
 warnings.filterwarnings('ignore')
-from entities import *
+from WorldBuilding_creating_dataset.entities import *
 
 class JewishLegalNERAnalyzer:
     def __init__(self, hf_token=None):
